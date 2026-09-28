@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>பூர்த்தி செய்வோம் - Fill in the Blanks</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>✨ பூர்த்தி செய்வோம் ✨</h1>
+            <p class="subtitle">வாசித்தல் - எழுதுதல்</p>
+            <p class="instruction">விடுபட்ட எழுத்தை சரியான கட்டத்தில் நிரப்பவும்:</p>
+        </header>
+
+        <div class="activity-grid">
+            <!-- 1. புத்_கம் (Answer: த்) -->
+            <div class="word-item">
+                <span class="word-part">புத்</span>
+                <input type="text" maxlength="1" class="blank-input" data-answer="த" autocomplete="off">
+                <span class="word-part">கம்</span>
+            </div>
+
+            <!-- 2. பா_சாலை (Answer: ட) -->
+            <div class="word-item">
+                <span class="word-part">பா</span>
+                <input type="text" maxlength="1" class="blank-input" data-answer="ட" autocomplete="off">
+                <span class="word-part">சாலை</span>
+            </div>
+
+            <!-- 3. மாம்_ழம் (Answer: ல) -->
+            <div class="word-item">
+                <span class="word-part">மாம்</span>
+                <input type="text" maxlength="1" class="blank-input" data-answer="ப" autocomplete="off">
+                <span class="word-part">ழம்</span>
+            </div>
+
+            <!-- 4. ஆசி_யர் (Answer: ரி) -->
+            <div class="word-item">
+                <span class="word-part">ஆசி</span>
+                <input type="text" maxlength="1" class="blank-input" data-answer="ரி" autocomplete="off">
+                <span class="word-part">யர்</span>
+            </div>
+        </div>
+
+        <button id="check-btn">පිළිතුරු පරීක්ෂා කරන්න 🎯</button>
+        <div id="score-display"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
