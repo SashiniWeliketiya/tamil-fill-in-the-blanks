@@ -6,7 +6,7 @@ An interactive, kid-friendly educational web application designed to practice Ta
 
 ## 🚀 Live Demo
 You can view the live website here: 
-👉 [Click here to view live site]( https://sashiniweliketiya.github.io/tamil-fill-in-the-blanks/)
+👉 [Click here to view live site] ( https://sashiniweliketiya.github.io/tamil-fill-in-the-blanks/)
 
 ---
 
